@@ -1,0 +1,15 @@
+/* Internal Use Only banner */
+.ms-pageTitle-area::before {
+  content: "⚠ Internal Use Only";
+  display: block;
+  background: #d83b01;
+  color: white;
+  font-weight: bold;
+  padding: 6px 16px;
+  font-size: 13px;
+}
+
+/* Border under banner */
+.ms-siteHeader {
+  border-bottom: 3px solid #d83b01;
+}
